@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    flex-flow: column nowrap;
+    /*border: 7px solid blue;*/
+    height: 650px;
+    margin: 0px;
+}
+
+
+
+/*haut*/
+#top{
+    display: flex;
+    justify-content: center;
+    height: 33%;
+}
+#haut{
+    display: flex;
+    justify-content: flex-start;
+    width: 25%;
+    height: 45%;
+}
+
+
+
+/*MILLIEU*/
+#middle{
+    display: flex;
+    justify-content: space-between;
+    height: 33%;
+}
+#middle_left{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 8%;
+    height: 100%;
+}
+#middle_center{
+    display: flex;
+    justify-content: flex-start;
+    width: 25%;
+    height: 50%;
+    position: relative;
+    top: 30%;
+}
+#middle_right{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 8%;
+    height: 100%;
+}
+
+
+
+/*BAS*/
+#bottom{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 33%;    
+}
+#bas{
+    display: flex;
+    justify-content: flex-start;
+    width: 25%;
+    height: 45%;
+}
+
+
+
+/*couleurs horizontaux*/
+
+.top_1_h{
+    background-color:tomato;
+    width: 33%;
+}
+.top_2_h{
+    background-color:blueviolet;
+    width: 33%;
+}
+.top_3_h{
+    background-color:purple;
+    width: 33%;
+}
+
+/*Couleurs Verticaux*/
+
+.top_1_v{
+    background-color: tomato;
+    width: 100%;
+}
+.top_2_v{
+    background-color: blueviolet;
+    width: 100%;
+}
+.top_3_v{
+    background-color: purple;
+    width: 100%;
+}
